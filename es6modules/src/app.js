@@ -117,7 +117,7 @@ function displayEntry() {
     });
 
     if (equals.className.includes('pressed')) { 
-        calcDisplay.innerHTML = this.textContent === '.' ? calcDisplay.innerHTML = '0.' : this.textContent;
+        calcDisplay.innerHTML = this.textContent === '.' ? '0.' : this.textContent;
         equals.classList.remove('pressed');
         result = '';
         lastValue = '';
@@ -188,7 +188,7 @@ function chooseOperator() {
             lastValue = parseFloat(math.format(ans, {precision: 10}));
             selectedOperator = this.dataset.symbol;
             currentValue = '';
-            calcDisplay.innerHTML = numberWithCommas(lastValue);
+            calcDisplay.innerHTML = lastValue.toLocaleString('en', {maximumSignificantDigits: 11});
             firstOp = '';
         }
     }
@@ -225,7 +225,7 @@ function calculate() {
     
     const ans = operators[selectedOperator](lastValue, currentValue);
     result = parseFloat(math.format(ans, {precision: 10}));
-    calcDisplay.innerHTML = numberWithCommas(result);
+    calcDisplay.innerHTML = result.toLocaleString('en', {maximumSignificantDigits: 11});
     firstOp = '';
     selectedOperator = '';
     const hasNoComma = result.toString().replace(/,/g, '');
