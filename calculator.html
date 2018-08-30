@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iOS Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div class='intro'>
+            <h1>iOS Calculator</h1>
+            <p>This was a fun little project. I decided to recreate the iOS calculator in order to sharpen my JavaScript
+                logic. I find it's usually the most pragmatic tools we take for granted. I like to think the programming
+                behind some of our everyday commodities as being analogous to Nathaniel Hawthorne's "simple reading is damn
+                good writing".
+            </p>
+        </div>
+        <div class='calculator'>
+            <div class='display'>
+                <span class='value'>0</span>
+            </div>
+            <div class='buttons'>
+                <ul class='row row-1'>
+                    <li>
+                        <span class='adjust' id="AC">AC</span>
+                    </li>
+                    <li>
+                        <span class='adjust' id="plus-minus">+/-</span>
+                    </li>
+                    <li>
+                        <span class='adjust' id="percentage">%</span>
+                    </li>
+                    <li>
+                        <span class='operator' data-symbol='/' id="divide">/</span>
+                    </li>
+                </ul>
+                <ul class='row row-2'>
+                    <li>
+                        <span class='number'>7</span>
+                    </li>
+                    <li>
+                        <span class='number'>8</span>
+                    </li>
+                    <li>
+                        <span class='number'>9</span>
+                    </li>
+                    <li>
+                        <span class='operator' data-symbol='*' id="multiply">X</span>
+                    </li>
+                </ul>
+                <ul class='row row-3'>
+                    <li>
+                        <span class='number'>4</span>
+                    </li>
+                    <li>
+                        <span class='number'>5</span>
+                    </li>
+                    <li>
+                        <span class='number'>6</span>
+                    </li>
+                    <li>
+                        <span class='operator' data-symbol='-' id="subtract">-</span>
+                    </li>
+                </ul>
+                <ul class='row row-4'>
+                    <li>
+                        <span class='number'>1</span>
+                    </li>
+                    <li>
+                        <span class='number'>2</span>
+                    </li>
+                    <li>
+                        <span class='number'>3</span>
+                    </li>
+                    <li>
+                        <span class='operator' data-symbol='+' id="add">+</span>
+                    </li>
+                </ul>
+                <ul class='row row-5'>
+                    <li>
+                        <span class='number'>0</span>
+                    </li>
+                    <li>
+                        <span class='number'>.</span>
+                    </li>
+                    <li>
+                        <span class='operator' id="equals">=</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="es6modules/dist/bundle.js"></script>
+
+</html>
