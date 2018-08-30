@@ -188,7 +188,7 @@ function chooseOperator() {
             lastValue = parseFloat(math.format(ans, {precision: 10}));
             selectedOperator = this.dataset.symbol;
             currentValue = '';
-            calcDisplay.innerHTML = lastValue.toLocaleString('en', {maximumSignificantDigits: 11});
+            calcDisplay.innerHTML = lastValue.toLocaleString('en', {maximumSignificantDigits: 9});
             firstOp = '';
         }
     }
@@ -225,7 +225,7 @@ function calculate() {
     
     const ans = operators[selectedOperator](lastValue, currentValue);
     result = parseFloat(math.format(ans, {precision: 10}));
-    calcDisplay.innerHTML = result.toLocaleString('en', {maximumSignificantDigits: 11});
+    calcDisplay.innerHTML = result.toLocaleString('en', {maximumSignificantDigits: 9});
     firstOp = '';
     selectedOperator = '';
     const hasNoComma = result.toString().replace(/,/g, '');
