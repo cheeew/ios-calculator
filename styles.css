@@ -169,7 +169,7 @@ h1, p {
 
 @media screen and (max-width: 460px) {
     .wrapper {
-        height: 120vh;
+        height: auto;
         width: auto;
         align-content: space-around;
         justify-content: space-evenly;
