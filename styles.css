@@ -36,7 +36,7 @@ h1, p {
     background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 5px 5px 20px black;
     transition: transform 400ms ease, box-shadow 400ms ease;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
 }
 
 .calculator:hover {
@@ -161,7 +161,7 @@ h1, p {
     .wrapper {
         flex-direction: column;
         height: 120vh;
-        width: 100vw;
+        width: auto;
         align-content: space-around;
         justify-content: space-evenly;
     }
@@ -170,7 +170,7 @@ h1, p {
 @media screen and (max-width: 460px) {
     .wrapper {
         height: 120vh;
-        width: 100vw;
+        width: auto;
         align-content: space-around;
         justify-content: space-evenly;
         overflow-y: scroll;
