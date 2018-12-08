@@ -1,6 +1,6 @@
 # iOS Calculator
 
-<img src="https://matthewoctober.com/static/calculator-20fd17d40b7440522dccb24a5babda2e-7b279.png" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)" />
+<img src="https://matthewoctober.com/static/calculator-20fd17d40b7440522dccb24a5babda2e-7b279.png" alt="Trello" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)" />
 
 This is a recreation of the iOS calculator. This project was undergone to sharpen my JavaScript logic while building a pragmatic tool during the process.
 
