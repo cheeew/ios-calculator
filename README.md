@@ -1,3 +1,5 @@
+<link href="style.css" rel="stylesheet" />
+
 # iOS Calculator
 
 <img src="https://matthewoctober.com/static/calculator-20fd17d40b7440522dccb24a5babda2e-7b279.png" alt="Trello" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)" />
