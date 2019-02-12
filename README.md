@@ -2,7 +2,7 @@
 
 # iOS Calculator
 
-<img src="https://www.matthewoctober.com/static/20fd17d40b7440522dccb24a5babda2e/7b279/calculator.png" alt="iOS Calculator" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)" />
+<img src="./calculator.png" alt="iOS Calculator" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6)" />
 
 This is a recreation of the iOS calculator. This project was undergone to sharpen my JavaScript logic while building a pragmatic tool during the process.
 
